@@ -1,0 +1,61 @@
+name: mind_backup
+version: 1.0.0+1
+publish_to: none
+description: Backup thoughts in your mind using todo application
+environment: 
+  sdk: '>=2.16.2 <3.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.1
+  get_storage: 2.0.3
+  equatable: 2.0.3
+  flutter_easyloading: 3.0.3
+  dotted_border: 2.0.0+2
+  step_progress_indicator: 1.0.2
+  intl: 0.17.0
+  awesome_notifications: 0.6.21
+  flutter_slidable: 1.2.0
+  assets_audio_player: 3.0.4+1
+
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/sounds/
+    - android/app/src/main/res/mipmap-mdpi/
+    - android/app/src/main/res/mipmap-xhdpi/
+    - android/app/src/main/res/
+    - android/app/src/main/res/values-night/
+    - android/app/src/main/res/drawable-v21/
+    - android/app/src/main/res/drawable/
+    - android/app/src/main/res/mipmap-xxxhdpi/
+    - android/app/src/main/res/values/
+    - android/app/src/main/res/mipmap-xxhdpi/
+    - android/app/src/main/res/mipmap-hdpi/
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal/Tajawal-Bold.ttf
+        - asset: assets/fonts/Tajawal/Tajawal-Regular.ttf
+    - family: YanoneKaffeesatz
+      fonts:
+        - asset: assets/fonts/YanoneKaffeesatz/YanoneKaffeesatz-Bold.ttf
+        - asset: assets/fonts/YanoneKaffeesatz/YanoneKaffeesatz-Regular.ttf
+    - family: Almarai
+      fonts:
+        - asset: assets/fonts/Almarai/Almarai-Bold.ttf
+        - asset: assets/fonts/Almarai/Almarai-Regular.ttf
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto/Roboto-Regular.ttf
+  uses-material-design: true
